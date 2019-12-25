@@ -16,7 +16,8 @@ func leap(year int) bool {
 
 func main() {
 	var year int
-	for month := 0; month >=0 || month <= 0 ;month++ {
+	var month int
+	for {
 		fmt.Println("请输入年份")
 		_, _ = fmt.Scanln(&year)
 		fmt.Println("请输入月份")
